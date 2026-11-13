@@ -5,20 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kebijakan Privasi Cosmic Ludo</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        h1, h2 { color: #333; }
-        code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; }
+        h1, h2 { color: #2c3e50; margin-top: 30px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #3498db; }
     </style>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <div id="content"></div>
-    <script>
-        fetch('index.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            });
-    </script>
+    <h1>Kebijakan Privasi Cosmic Ludo</h1>
+    <p><strong>Terakhir diperbarui:</strong> 13 November 2026</p>
+    
+    <h2>1. Pengantar</h2>
+    <p>Cosmic Ludo ("Kami") menghargai privasi Anda. Dokumen ini menjelaskan bagaimana Kami mengumpulkan, menggunakan, dan melindungi data Anda saat menggunakan aplikasi Cosmic Ludo ("Aplikasi").</p>
+    
+    <h2>2. Data yang Kami Kumpulkan</h2>
+    <p>Aplikasi ini mengumpulkan data berikut:</p>
+    
+    <h3>2.1. Data Akun</h3>
+    <ul>
+        <li><strong>ID Pengguna (User ID):</strong> Identifikasi unik yang dihasilkan secara otomatis saat Anda masuk ke Aplikasi (melalui autentikasi anonim Supabase). ID ini digunakan untuk:
+            <ul>
+                <li>Mengidentifikasi Anda dalam pertandingan multiplayer.</li>
+                <li>Menyimpan progres permainan lokal.</li>
+            </ul>
+        </li>
+        <li><strong>Nama Panggilan (Nickname):</strong> Nama yang Anda pilih untuk profil dalam Aplikasi. Nama ini hanya ditampilkan di layar profil dan tidak dikaitkan dengan identitas nyata Anda.</li>
+    </ul>
+    
+    <h3>2.2. Data Permainan</h3>
+    <ul>
+        <li><strong>Data Multiplayer:</strong> Saat Anda bermain mode online, Kami menyimpan:
+            <ul>
+                <li>Riwayat pertandingan (hasil menang/kalah).</li>
+                <li>Statistik permainan (jumlah langkah, skor, dll).</li>
+            </ul>
+        </li>
+        <li>Data ini disimpan di server cloud (Supabase) dan digunakan untuk:
+            <ul>
+                <li>Sinkronisasi antar pemain dalam pertandingan online.</li>
+                <li>Menampilkan leaderboard/peringkat global (jika fitur tersedia).</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3>2.3. Data Teknis</h3>
+    <ul>
+        <li><strong>Log Crash:</strong> Kami dapat mengumpulkan log crash secara otomatis untuk memperbaiki bug dan stabilitas Aplikasi. Log ini tidak berisi informasi pribadi Anda.</li>
+    </ul>
+    
+    <h2>3. Cara Kami Menggunakan Data Anda</h2>
+    <p>Kami menggunakan data yang dikumpulkan untuk:</p>
+    <ul>
+        <li>Menjalankan dan menyediakan fitur Aplikasi (misalnya matchmaking online).</li>
+        <li>Meningkatkan kualitas Aplikasi (melalui analisis crash dan bug).</li>
+        <li>Menampilkan profil Anda kepada pemain lain dalam pertandingan online.</li>
+    </ul>
+    
+    <h2>4. Penyimpanan Data</h2>
+    <ul>
+        <li>Data Anda disimpan di server cloud yang dioperasikan oleh Supabase (penyedia layanan database).</li>
+        <li>Kami tidak menjual data Anda kepada pihak ketiga.</li>
+        <li>Kami tidak mengungkapkan data Anda kepada pihak ketiga, kecuali jika diwajibkan oleh hukum.</li>
+    </ul>
+    
+    <h2>5. Keamanan Data</h2>
+    <p>Kami menerapkan langkah-langkah keamanan yang wajar untuk melindungi data Anda, termasuk:</p>
+    <ul>
+        <li>Enkripsi komunikasi antara Aplikasi dan server (HTTPS).</li>
+        <li>Kontrol akses yang ketat terhadap database.</li>
+        <li>Namun, tidak ada metode transmisi atau penyimpanan data yang 100% aman. Kami tidak dapat menjamin keamanan absolut.</li>
+    </ul>
+    
+    <h2>6. Hak Anda</h2>
+    <p>Anda memiliki hak untuk:</p>
+    <ul>
+        <li>Mengakses data Anda yang Kami simpan.</li>
+        <li>Meminta penghapusan data Anda (dengan menghapus akun melalui Aplikasi atau menghubungi Kami).</li>
+        <li>Menarik persetujuan Anda untuk pengumpulan data.</li>
+    </ul>
+    <p>Untuk melaksanakan hak ini, Anda dapat menghubungi Kami di alamat email di bawah.</p>
+    
+    <h2>7. Data Anak-Anak</h2>
+    <p>Aplikasi ini ditujukan untuk pengguna berusia 7 tahun ke atas. Kami tidak sengaja mengumpulkan data pribadi dari anak di bawah 13 tahun tanpa persetujuan orang tua. Jika Kami mengetahui bahwa Kami telah mengumpulkan data dari anak di bawah 13 tahun tanpa persetujuan orang tua, Kami akan mengambil langkah untuk menghapus data tersebut.</p>
+    
+    <h2>8. Perubahan Kebijakan Privasi</h2>
+    <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diposting di halaman ini dengan tanggal revisi terbaru. Kami menyarankan Anda meninjau Kebijakan Privasi ini secara berkala.</p>
+    
+    <h2>9. Kontak</h2>
+    <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau praktik privasi Kami, silakan hubungi Kami di:</p>
+    <p><strong>Email:</strong> amsyar.aplication@gmail.com<br>
+    <strong>Nama Pengembang:</strong> Cosmic Ludo Development Team</p>
+    
+    <hr>
+    <p><em>Cosmic Ludo adalah permainan papan digital yang dikembangkan untuk tujuan hiburan. Dengan menggunakan Aplikasi ini, Anda menyetujui pengumpulan dan penggunaan data sebagaimana dijelaskan dalam Kebijakan Privasi ini.</em></p>
 </body>
 </html>
